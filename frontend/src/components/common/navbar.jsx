@@ -81,7 +81,7 @@ const StyledNavBar = styled.nav`
 		color: #49030b;
 		font-size: 16px;
 		font-weight: bold;
-		margin-right: 20px;
+		margin-right: 80px;
 	}
 
 	.navbar-links a:last-child {
@@ -112,8 +112,9 @@ const StyledNavBar = styled.nav`
 		}
 
 		.navbar-secondary {
-			height: auto;
-			padding: 10px 0;
+			// height: auto;
+			// padding: 10px 0;
+			display: none;
 		}
 
 		.navbar-links {
